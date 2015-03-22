@@ -1,0 +1,9 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+class FirstNonRepeating {
+    //Method1
+    public static char getFirstNonRepatingchar(String s) {
+        HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+        
